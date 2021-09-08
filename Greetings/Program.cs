@@ -6,7 +6,20 @@ namespace GreenTigs
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //programm küsib kasutaja nime
+            //programm tervitab kasutajat nimepidi
+            Console.WriteLine("Mis su nimi on?");
+
+            string UserName = Console.ReadLine();
+
+            //Console.WriteLine("Hello, " + UserName);
+
+            //string interpolation
+
+            //{} - altGr + 7 / altGr + 0
+            Console.WriteLine($"Hello, {UserName}"); 
+
+            Console.Read();
         }
     }
 }
